@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #A27B5C;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #A27B5C;
+}
+
+.colored {
+  color: #282c34;
+  margin: 5em;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 1.5em;
+  background-color: #3F4E4F;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 10px;
+  color: #DCD7C9;
+  text-align: center;
+}
+
+.topnav {
+  background-color: #3F4E4F;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #DCD7C9;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DCD7C9;
+  color: #2C3639;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #61dafb;
+  color: #2C3639;
+}
+
+.colored {
+  color: #282c34;
+  margin: 5em;
+}
+
+.myfooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+  color: #FFF;
+  text-align: center;
+}
+
+#bread1 {
+  background-image: url('/public/journal5.jpg');
+  height: max-content;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#bread2 {
+  background: url('/public/journal7.jpg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50em;
+}
+
+#bread3 {
+  background: url('/public/journal6.jpg');
+  background-repeat: no-repeat;
+  padding: 1.5em;
+  background-size: cover;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.hero-body{
+  background-color: #A27B5C;
+  max-width: 80vh;
+  max-height: 90%;
+  color: white;
+}
+
+.myrows{
+  display: flex;
+  flex-direction: column;
+}
