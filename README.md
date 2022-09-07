@@ -51,3 +51,4 @@ This application is a local Journal app that allows a user to:
 
 ![about](https://github.com/121Unicorns/journal-frontend/blob/main/snaps/Screenshot%202022-09-07%20193250.png?raw=true)
 
+# ENJOY!
