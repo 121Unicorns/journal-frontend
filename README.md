@@ -12,6 +12,8 @@ To run the program, type:
 ##### `npm start`
 then open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+#### NOTE: Please check for the Journal server [here](https://github.com/121Unicorns/journal-backend) as it is the backend and a companion to this project. No journal entries will load or be created unless the server is also running. I will also be adding the server-api to this repository.
+
 # FEATURES
 
 This application is a local Journal app that allows a user to:
